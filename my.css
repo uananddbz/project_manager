@@ -1,0 +1,285 @@
+@import url("css3.css");
+@import url("grid.css");
+
+body,* {
+margin:0;
+padding:0;
+font-family:Arial;
+}
+
+body {
+background:#efefef;
+}
+
+a {
+text-decoration:none;
+color:#0066FF;
+}
+
+a:hover {
+text-decoration:underline;
+}
+
+.c {
+text-align:center
+}
+
+.l {
+text-align:left;
+}
+
+.r {
+text-align:right;
+}
+
+.fl {
+float:left;
+}
+
+.fr {
+float:right;
+}
+
+.bl {
+overflow:hidden;
+display:block !important;
+}
+
+.il {
+display:inline-block !important;
+}
+
+.no-u ,.no-u:hover ,.no-u:active {
+text-decoration:none !important;
+}
+
+.logo {
+padding:1em;
+font-weight:bold;
+font-size:large;
+color:#00CC66;
+background:#ffffff;
+border-bottom:.2em solid #00CC66;
+}
+
+.header {
+overflow:hidden;
+padding:1em;
+border-bottom:.2em solid black;
+}
+
+#loading {
+padding:.5em;
+}
+
+.wrap {
+max-width:700px;
+margin:auto;
+}
+
+.but {
+padding:.5em;
+border:none;
+outline:1px solid #ccc;
+font-weight:bold;
+color:black;
+overflow:hidden;
+margin:auto .2em;
+background:#fff;
+display:inline-block;
+}
+
+.but-ac {
+text-decoration:none !important;
+}
+
+.but-ac:active {
+background:#eee;
+}
+
+.but-suc {
+background:#00a000;
+color:white;
+outline:.2em solid #00a000;
+}
+
+.but-suc:active ,.but-suc.active {
+background:#008000;
+outline-color:#008000;
+}
+
+
+input.but ,button.but {
+-webkit-appearance:none;
+padding:.8em .5em;
+background-color:#fff;
+}
+
+input.but:active ,button.but:active {
+background-color:#ededed;
+}
+
+
+.list {
+margin-top:1em;
+list-style:none;
+}
+
+.list li{
+overflow:hidden;
+}
+
+.list li.new {
+display:none;
+}
+
+.list li {
+padding:.5em;
+border-bottom:1px solid #ccc;
+color:black;
+font-weight:bold;
+text-decoration:none !important;
+}
+
+.list.list-link li {
+padding:0;
+
+}
+
+.list.list-link li a {
+padding:1em;
+color:black;
+text-decoration:none !important;
+}
+
+.list.list-link li a:hover ,.list-hover li:hover {
+background:#ffffff;
+}
+
+.add-task {
+}
+
+.add-task table ,.add-task input ,.add-task textarea ,.add-task button {
+width:100%;
+}
+
+.add-task td,.add-task input ,.add-task textarea ,.add-task button ,.add-project input {
+padding:.5em;
+}
+
+.add-task button {
+border:none;
+outline:1px solid #4096ee;
+font-weight:bold;
+color:white;
+padding:.8em 0;
+background-color: #7abcff;
+}
+
+.add-task button:active {
+background-color: #4096ee;
+}
+
+.add-task .cont {
+padding:.5em;
+}
+
+.info {
+color:#555;
+padding:.5em;
+}
+
+.add-project table {
+width:100%;
+}
+
+.add-project input ,.add-project button {
+width:100%;
+}
+
+.add-project table td {
+padding:.5em;
+}
+
+.list .pr {
+margin:auto .2em;
+color:white;
+background:black;
+padding:0 .4em;
+border:1px solid black;
+}
+
+.list .pr.l {
+border-color:#4096ee;
+background-color: #4096ee;
+}
+
+.list .pr.n {
+border-color:#61c419;
+background-color: #61c419;
+}
+
+.list .pr.h {
+border-color:#cf0404;
+background-color: #cf0404;
+}
+
+#project-list .done .status {
+color:green;
+}
+
+#project-list .status {
+color:orange;
+}
+
+
+.all-done {
+}
+
+.all-done ul {
+margin:0;
+}
+
+.all-done ul li {
+padding:.5em;
+font-weight:normal;
+}
+
+
+.ui-draggable-dragging {
+outline:1px solid #ccc;
+background:#fff;
+z-index:20;
+}
+
+.task_done {
+visibility:hidden;
+background:green;
+color:white;
+}
+
+.list li:hover .task_done {
+visibility:visible;
+}
+
+.a {
+position:relative;
+}
+
+.del {
+position:absolute;
+z-index:15;
+top:0;
+left:0;
+padding:1em 0;
+width:100%;
+font-size:large;
+font-weight:bold;
+color:white;
+background:rgba(207, 4, 4, 0.5);
+}
+
+.del.active {
+
+background:rgba(207, 4, 4, 0.7);
+}

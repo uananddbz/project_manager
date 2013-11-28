@@ -1,0 +1,5 @@
+<script src="js/jquery.min.js"></script>
+<script src="js/jquery-ui.min.js"></script>
+<script src="js/my.js"></script>
+<link rel="stylesheet" type="text/css" href="my.css">
+<link rel="stylesheet" type="text/css" href="jquery-ui.min.css">

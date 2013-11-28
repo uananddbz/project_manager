@@ -1,0 +1,9 @@
+.add-form {
+max-width:600px;
+margin:auto;
+background:#dedede;
+}
+
+.add-form table ,.add-form input ,.add-form textarea ,.add-form button {
+width:100%;
+}

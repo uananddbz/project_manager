@@ -1,0 +1,22 @@
+.grid {
+margin:0;
+margin-top:1em;
+padding:0;
+width:98%;
+}
+
+.a ,.b {
+float:left;
+display:inline-block;
+margin:0;
+margin-left:2%;
+padding:0;
+}
+
+.a {
+width:76%;
+}
+
+.b {
+width:20%;
+}
